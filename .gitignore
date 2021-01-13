@@ -1,0 +1,16 @@
+*/node_modules/**/*
+*/.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*/web-build/
+*/vibot-295311-a0db5927f21c.json
+
+# macOS
+.DS_Store
+vibotour/debug.log
+backend-chatbot/.env

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,600&display=swap");
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Montserrat-Regular;
+  font-weight: 400;
+}
+a:hover {
+  color: #cccecf;
+  text-decoration: none;
+}
+.ViewMore {
+  margin-top: 20px;
+}
+
+.title {
+  margin-top: 30px;
+}
+
+svg {
+  font-size: 17px;
+  margin-right: 10px;
+  color: gray;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+
+li:hover {
+  color: blue;
+}
+
+li:nth-child(1) {
+  color: blue;
+}
+
+.card .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.7s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card:nth-child(1) .icon {
+  background: #e07768;
+}
+
+.card:nth-child(2) .icon {
+  background: #6eadd4;
+}
+
+.card:nth-child(3) .icon {
+  background: #4aada9;
+}
+
+.card .face {
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.card:hover .face.face1 {
+  background: #ff0057;
+  transform: translateY(0px);
+}
+
+.card .face.face2 {
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #414141;
+}
+
+.card .face.face2 .content h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  color: #414141;
+}
+.icondash {
+  font-size: 50px;
+}
+
+.feedback {
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-preview {
+  background-color: #2a265f;
+  color: #fff;
+}
+
+.contact {
+  height: 400px;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+.contact-form button {
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+}
+
+.numberBig {
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat-Black;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  font-weight: 500;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Montserrat-Regular;
+}
+td {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

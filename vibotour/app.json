@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "vibotour",
+    "slug": "vibotour",
+    "version": "1.2.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon-circle.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "android": {
+      "package": "com.teamse007.vibotour",
+      "versionCode": 30
+    },
+    "description": ""
+  }
+}

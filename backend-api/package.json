@@ -1,0 +1,28 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "nodemailer": "^6.4.11",
+    "pg": "^8.4.2",
+    "qrcode": "^1.4.4",
+    "stripe": "^8.107.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
